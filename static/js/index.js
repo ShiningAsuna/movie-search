@@ -55,7 +55,7 @@ var top250 = {
     _this.isLoading = true;
     _this.$target.find('.loading').show();
     $.ajax({
-      url: 'http://api.douban.com/v2/movie/top250',
+      url: 'https://api.douban.com/v2/movie/top250',
       type: 'GET',
       dataType: 'jsonp',
       data: {
@@ -100,7 +100,7 @@ var us = {
     _this.isLoading = true;
     _this.$target.find('.loading').show();
     $.ajax({
-      url: 'http://api.douban.com/v2/movie/us_box',
+      url: 'https://api.douban.com/v2/movie/us_box',
       type: 'GET',
       dataType: 'jsonp',
     }).done(function(result){
@@ -141,7 +141,7 @@ var search = {
     var _this = this;
     _this.$target.find('.loading').show();
     $.ajax({
-      url: 'http://api.douban.com/v2/movie/search',
+      url: 'https://api.douban.com/v2/movie/search',
       type: 'GET',
       dataType: 'jsonp',
       data: {
@@ -177,7 +177,7 @@ var util = {
   },
   buildNodes: function(node, $container){
     var template = `<div class="single-movie clearfix">
-    <img src="http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2315672647.jpg" alt="" class="movie-pic">  
+    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2315672647.jpg" alt="" class="movie-pic">  
     <div class="movie-info">
     <h3 class="movie-name">教父</h3>
     <div><span class="score">9.2分</span> / <span class="collect">46223</span>收藏</div>
