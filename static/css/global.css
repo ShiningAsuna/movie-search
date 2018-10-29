@@ -81,7 +81,7 @@ section .search-area {
 }
 
 section .search-area input {
-  width: 80%;
+  width: 70%;
   height: 26px;
   padding: 0 5px; 
 }
