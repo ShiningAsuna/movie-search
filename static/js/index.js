@@ -1,3 +1,5 @@
+// old js file without require.js
+
 var app = {
   init: function(){
     this.$bar = $('footer .bar-btn');
